@@ -1,0 +1,18 @@
+# environment-gpu.yml
+name: activation-functions
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - numpy
+  - matplotlib
+  - pytorch=2.5
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1    # CUDA runtime for GPU builds of PyTorch
+  - pip
+  - pip:
+      - ipywidgets

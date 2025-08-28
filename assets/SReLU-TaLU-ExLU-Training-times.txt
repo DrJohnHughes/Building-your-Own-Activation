@@ -1,0 +1,57 @@
+TRAINING TIME
+
+SimpleNN ReLU training completed in 50.43 seconds.
+SimpleNN ReLU training completed in 49.07 seconds.
+SimpleNN ReLU training completed in 49.35 seconds.
+
+SimpleNN TaLU training completed in 52.22 seconds.
+SimpleNN TaLU training completed in 50.40 seconds.
+SimpleNN TaLU training completed in 51.92 seconds.
+
+SimpleNN Scaled TaLU training completed in 53.27 seconds.
+SimpleNN Scaled TaLU training completed in 52.52 seconds.
+SimpleNN Scaled TaLU training completed in 52.38 seconds.
+
+SimpleNN ExLU training completed in 51.00 seconds.
+SimpleNN ExLU training completed in 52.88 seconds.
+SimpleNN ExLU training completed in 52.46 seconds.
+
+CNN ReLU training completed in 60.97 seconds.
+CNN ReLU training completed in 61.87 seconds.
+CNN ReLU training completed in 61.18 seconds.
+
+CNN TaLU training completed in 63.74 seconds.
+CNN TaLU training completed in 57.38 seconds.
+
+CNN ExLU Loss got down to nan! I added a clamp in the ExLU function to avoid this
+Epoch [4/5], Step [600/938], Loss: 0.0259
+Epoch [4/5], Step [700/938], Loss: 0.0166
+Epoch [4/5], Step [800/938], Loss: nan
+Epoch [4/5], Step [900/938], Loss: nan
+CNN ExLU training completed in 58.93 seconds.
+Second run of CNN ExLU
+Epoch [5/5], Step [800/938], Loss: 0.0161
+Epoch [5/5], Step [900/938], Loss: 0.0186
+CNN ExLU training completed in 59.13 seconds.
+
+
+
+EVALUATIONS
+
+SimpleNN ReLU Correct: 9765 out of 10000.
+SimpleNN ReLU Accuracy on the test set: 97.65%
+
+SimpleNN TaLU Correct: 9752 out of 10000.
+SimpleNN TaLU Accuracy on the test set: 97.52%
+
+SimpleNN ExLU Correct: 9778 out of 10000.
+SimpleNN ExLU Accuracy on the test set: 97.78%
+
+CNN ReLU Correct: 9911 out of 10000.
+CNN ReLU Accuracy on the test set: 99.11%
+
+CNN TaLU Correct: 9924 out of 10000.
+CNN TaLU Accuracy on the test set: 99.24%
+
+CNN ExLU Correct: 9909 out of 10000.
+CNN ExLU Accuracy on the test set: 99.09%

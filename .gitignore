@@ -1,0 +1,23 @@
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# notebooks
+.ipynb_checkpoints/
+
+# environments
+.venv/
+env/
+venv/
+*.env
+
+# data / artifacts (local only)
+data/
+outputs/
+runs/
+wandb/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db

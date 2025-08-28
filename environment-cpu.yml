@@ -1,0 +1,16 @@
+# environment-cpu.yml
+name: activation-functions
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - numpy
+  - matplotlib
+  - pytorch=2.5
+  - torchvision
+  - torchaudio
+  - pip
+  - pip:
+      - ipywidgets

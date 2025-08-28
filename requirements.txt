@@ -1,0 +1,8 @@
+# requirements.txt  (pip)
+numpy
+matplotlib
+jupyterlab
+ipywidgets
+torch
+torchvision
+torchaudio
