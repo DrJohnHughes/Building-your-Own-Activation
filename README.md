@@ -50,7 +50,7 @@ pip install -r requirements.txt
 **TaLU (α·tanh for x<0; identity for x≥0)**
 
 $$
-\operatorname{TaLU}_\alpha(x)=
+\text{TaLU}_{\alpha}(x)=
 \begin{cases}
 \alpha\,\tanh(x), & x<0\\
 x, & x\ge 0
@@ -60,9 +60,9 @@ $$
 **ExLU (smooth ELU)**
 
 $$
-\operatorname{ExLU}_\alpha(x)=
+\text{ExLU}_{\alpha}(x)=
 \begin{cases}
-\alpha\left(e^{x/\alpha}-1\right), & x<0\\
+\alpha\big(e^{x/\alpha}-1\big), & x<0\\
 x, & x\ge 0
 \end{cases}
 $$
@@ -121,6 +121,7 @@ Compare ELU and ExLU:
 <br>
 
 <details>
+
 ### Initialization (optional)
 Most small demos work fine with defaults. If you hit vanishing/exploding gradients, try these:
 
