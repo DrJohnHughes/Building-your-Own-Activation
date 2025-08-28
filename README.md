@@ -2,7 +2,6 @@
 ## Combining tanh and ReLU into "TaLU" and modifying ELU to have a continuous derivative
 #### Dr John Hughes
 
-<br>
 This work explores rolling your own Activation Functions as a means to improve Machine Learning results. To demonstrate the methodology two activations are built. The first, **TaLU**, is built by combining the well-known activation functions **tanh** and **ReLU**. The second, **ExLU** is a modification of the **ELU** Activation Function.
 
 #### Hand-rolled Activation Functions
